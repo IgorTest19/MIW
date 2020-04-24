@@ -1,6 +1,4 @@
-
-
-#ZAD 1
+# ZAD 1
 
 zmienna_string = """Lorem Ipsum jest tekstem stosowanym jako przykładowy
 wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w.
@@ -12,8 +10,7 @@ a ostatnio z zawierającym różne wersje Lorem Ipsum oprogramowaniem
 przeznaczonym do realizacji druków na komputerach osobistych,
 jak Aldus PageMaker"""
 
-
-#ZAD 2
+# ZAD 2
 
 imie = "Igor"
 nazwisko = "Ciuciura"
@@ -28,34 +25,31 @@ print("W tekście jest {0} liter {1} oraz {2} liter {3}"
       .format(liter_1_ilosc, litera_1, litera_2_ilosc, litera_2)
       )
 
+# ZAD 3
 
-#ZAD 3
-
-##1
+# 3.1
 
 print("{:>20}".format("Witaj!"))
 
-
-##2
+# 3.2
 
 print("{:_<20}".format("Świecie!"))
 
-##3
+# 3.3
 
 print("{:^20}".format("Python"))
 
-##4
+# 3.4
 
 slownik = {'pierwszy': 'Python', 'drugi': '3.7'}
 
 print("{pierwszy} {drugi}".format(**slownik))
 
-##5
+# 3.5
 
 print("{:=+5d} {}".format(100, "do pancerza"))
 
-
-#ZAD 4
+# ZAD 4
 
 zmienna_typu_string = "Wyrazy testowe"
 
@@ -65,15 +59,13 @@ help(zmienna_typu_string.isprintable)
 
 print(zmienna_typu_string.isprintable())
 
-
-#ZAD 5
+# ZAD 5
 
 student = "Igor Ciuciura"
 
 print((student[::-1]).capitalize())
 
-
-#ZAD 6
+# ZAD 6
 
 lista_oryginalna = list(range(1, 11))
 
@@ -85,8 +77,7 @@ print(lista_oryginalna)
 
 print(lista_nowa1)
 
-
-#ZAD 7
+# ZAD 7
 
 lista_oryginalna = list(range(1, 11))
 
@@ -104,26 +95,24 @@ kopia_listy = (lista_oryginalna + lista_nowa1).copy()
 
 print(kopia_listy)
 
-kopia_listy.sort(reverse = True)
+kopia_listy.sort(reverse=True)
 
 print(kopia_listy)
 
-
-#ZAD 8
+# ZAD 8
 
 lista_stud = ((156091, "Adam Kowalski"), (1593685, "Jonasz Braders"))
 
-
-#ZAD 9
+# ZAD 9
 
 lista_stud2 = {
-    156091 : {
-    'imie': "Adam",
-    'nazwisko': "Kowalski",
-    'wiek': 25,
-    'e-mail': "adam.kowalski@gmail.com",
-    'rok urodzenia': 1995,
-    'adress': "80-298 Gdańsk, Juliusza Słowackiego 21,"
+    156091: {
+        'imie': "Adam",
+        'nazwisko': "Kowalski",
+        'wiek': 25,
+        'e-mail': "adam.kowalski@gmail.com",
+        'rok urodzenia': 1995,
+        'adress': "80-298 Gdańsk, Juliusza Słowackiego 21,"
     },
     159385: {
         'imie': "Jonasz",
@@ -136,26 +125,26 @@ lista_stud2 = {
 
 }
 
-#ZAD 10
+# ZAD 10
 
-numery_tel = ["600 500 400", "600 500 400", "960 560 560", "690 800 800", "690 800 800"]
+numery_tel = [
+    "600 500 400", "600 500 400", "960 560 560",
+    "690 800 800", "690 800 800"
+]
 
 print(set(numery_tel))
 
+# ZAD 11
 
-#ZAD 11
-
-for x in range(1,11):
+for x in range(1, 11):
     print(x)
 
-
-#ZAD 12
+# ZAD 12
 
 for x in range(100, 15, -5):
     print(x)
 
-
-#ZAD 13
+# ZAD 13
 
 lista_aut = [
     {
@@ -182,8 +171,6 @@ lista_aut = [
 ]
 
 for auto in lista_aut:
-    print (
-        "Na sprzedaż mamy {0} samochód {1} {2} z silnikiem o pojemności {3}."
-        " {1} kosztuje tylko {4} złotych ".format(auto["kolor"], auto["marka"],
-        auto["model"], auto["pojemność"], str(auto["cena"]))
-    )
+    print(
+        "Na sprzedaż mamy {0} samochód {1} {2} z silnikiem o pojemności {3}. {1} kosztuje tylko {4} złotych ".format(
+            auto["kolor"], auto["marka"], auto["model"], auto["pojemność"], str(auto["cena"])))
