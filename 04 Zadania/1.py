@@ -57,3 +57,5 @@ def add(current, parent_node):
 root = Node(0)
 parent_zero = graph.newItem(root.val)
 add(root, parent_zero)
+
+graph.dot()
