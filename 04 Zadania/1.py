@@ -10,7 +10,7 @@ class Node:
         self.middle = None
         self.right = None
         self.val = val
-        self.visited = False
+
 
 
     def __str__(self):
