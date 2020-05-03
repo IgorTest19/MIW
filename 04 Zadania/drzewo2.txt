@@ -1,0 +1,512 @@
+digraph G {
+compound=true;
+   node1 [label="prot: 0"];
+   node2 [label="ant: 4"];
+   node3 [label="prot: 8"];
+   node4 [label="ant: 12"];
+   node5 [label="prot: 16"];
+   node6 [label="ant: 20"];
+   node7 [label="prot: 
+ KONIEC
+PORAŻKA"];
+   node8 [label="ant: 21
+ KONIEC
+REMIS"];
+   node9 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node10 [label="prot: 17"];
+   node11 [label="ant: 21
+ KONIEC
+REMIS"];
+   node12 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node13 [label="prot: 18"];
+   node14 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node15 [label="ant: 13"];
+   node16 [label="prot: 17"];
+   node17 [label="ant: 21
+ KONIEC
+REMIS"];
+   node18 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node19 [label="prot: 18"];
+   node20 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node21 [label="prot: 19"];
+   node22 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node23 [label="ant: 14"];
+   node24 [label="prot: 18"];
+   node25 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node26 [label="prot: 19"];
+   node27 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node28 [label="prot: 20"];
+   node29 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node30 [label="prot: 9"];
+   node31 [label="ant: 13"];
+   node32 [label="prot: 17"];
+   node33 [label="ant: 21
+ KONIEC
+REMIS"];
+   node34 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node35 [label="prot: 18"];
+   node36 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node37 [label="prot: 19"];
+   node38 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node39 [label="ant: 14"];
+   node40 [label="prot: 18"];
+   node41 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node42 [label="prot: 19"];
+   node43 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node44 [label="prot: 20"];
+   node45 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node46 [label="ant: 15"];
+   node47 [label="prot: 19"];
+   node48 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node49 [label="prot: 20"];
+   node50 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node51 [label="prot: 21
+ KONIEC
+REMIS"];
+   node52 [label="prot: 10"];
+   node53 [label="ant: 14"];
+   node54 [label="prot: 18"];
+   node55 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node56 [label="prot: 19"];
+   node57 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node58 [label="prot: 20"];
+   node59 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node60 [label="ant: 15"];
+   node61 [label="prot: 19"];
+   node62 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node63 [label="prot: 20"];
+   node64 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node65 [label="prot: 21
+ KONIEC
+REMIS"];
+   node66 [label="ant: 16"];
+   node67 [label="prot: 20"];
+   node68 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node69 [label="prot: 21
+ KONIEC
+REMIS"];
+   node70 [label="prot: 
+ KONIEC
+PORAŻKA"];
+   node71 [label="ant: 5"];
+   node72 [label="prot: 9"];
+   node73 [label="ant: 13"];
+   node74 [label="prot: 17"];
+   node75 [label="ant: 21
+ KONIEC
+REMIS"];
+   node76 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node77 [label="prot: 18"];
+   node78 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node79 [label="prot: 19"];
+   node80 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node81 [label="ant: 14"];
+   node82 [label="prot: 18"];
+   node83 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node84 [label="prot: 19"];
+   node85 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node86 [label="prot: 20"];
+   node87 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node88 [label="ant: 15"];
+   node89 [label="prot: 19"];
+   node90 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node91 [label="prot: 20"];
+   node92 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node93 [label="prot: 21
+ KONIEC
+REMIS"];
+   node94 [label="prot: 10"];
+   node95 [label="ant: 14"];
+   node96 [label="prot: 18"];
+   node97 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node98 [label="prot: 19"];
+   node99 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node100 [label="prot: 20"];
+   node101 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node102 [label="ant: 15"];
+   node103 [label="prot: 19"];
+   node104 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node105 [label="prot: 20"];
+   node106 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node107 [label="prot: 21
+ KONIEC
+REMIS"];
+   node108 [label="ant: 16"];
+   node109 [label="prot: 20"];
+   node110 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node111 [label="prot: 21
+ KONIEC
+REMIS"];
+   node112 [label="prot: 
+ KONIEC
+PORAŻKA"];
+   node113 [label="prot: 11"];
+   node114 [label="ant: 15"];
+   node115 [label="prot: 19"];
+   node116 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node117 [label="prot: 20"];
+   node118 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node119 [label="prot: 21
+ KONIEC
+REMIS"];
+   node120 [label="ant: 16"];
+   node121 [label="prot: 20"];
+   node122 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node123 [label="prot: 21
+ KONIEC
+REMIS"];
+   node124 [label="prot: 
+ KONIEC
+PORAŻKA"];
+   node125 [label="ant: 17"];
+   node126 [label="prot: 21
+ KONIEC
+REMIS"];
+   node127 [label="prot: 
+ KONIEC
+PORAŻKA"];
+   node128 [label="ant: 6"];
+   node129 [label="prot: 10"];
+   node130 [label="ant: 14"];
+   node131 [label="prot: 18"];
+   node132 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node133 [label="prot: 19"];
+   node134 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node135 [label="prot: 20"];
+   node136 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node137 [label="ant: 15"];
+   node138 [label="prot: 19"];
+   node139 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node140 [label="prot: 20"];
+   node141 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node142 [label="prot: 21
+ KONIEC
+REMIS"];
+   node143 [label="ant: 16"];
+   node144 [label="prot: 20"];
+   node145 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node146 [label="prot: 21
+ KONIEC
+REMIS"];
+   node147 [label="prot: 
+ KONIEC
+PORAŻKA"];
+   node148 [label="prot: 11"];
+   node149 [label="ant: 15"];
+   node150 [label="prot: 19"];
+   node151 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node152 [label="prot: 20"];
+   node153 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node154 [label="prot: 21
+ KONIEC
+REMIS"];
+   node155 [label="ant: 16"];
+   node156 [label="prot: 20"];
+   node157 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node158 [label="prot: 21
+ KONIEC
+REMIS"];
+   node159 [label="prot: 
+ KONIEC
+PORAŻKA"];
+   node160 [label="ant: 17"];
+   node161 [label="prot: 21
+ KONIEC
+REMIS"];
+   node162 [label="prot: 
+ KONIEC
+PORAŻKA"];
+   node163 [label="prot: 12"];
+   node164 [label="ant: 16"];
+   node165 [label="prot: 20"];
+   node166 [label="ant: 
+ KONIEC
+PORAŻKA"];
+   node167 [label="prot: 21
+ KONIEC
+REMIS"];
+   node168 [label="prot: 
+ KONIEC
+PORAŻKA"];
+   node169 [label="ant: 17"];
+   node170 [label="prot: 21
+ KONIEC
+REMIS"];
+   node171 [label="prot: 
+ KONIEC
+PORAŻKA"];
+   node172 [label="ant: 18"];
+   node173 [label="prot: 
+ KONIEC
+PORAŻKA"];
+node1->node2 [label="4"];
+node1->node71 [label="5"];
+node1->node128 [label="6"];
+node2->node3 [label="4"];
+node2->node30 [label="5"];
+node2->node52 [label="6"];
+node3->node4 [label="4"];
+node3->node15 [label="5"];
+node3->node23 [label="6"];
+node4->node5 [label="4"];
+node4->node10 [label="5"];
+node4->node13 [label="6"];
+node5->node6 [label="4"];
+node5->node8 [label="5"];
+node5->node9 [label="6"];
+node6->node7 [label="4,5,6"];
+node10->node11 [label="4"];
+node10->node12 [label="5,6"];
+node13->node14 [label="4,5,6"];
+node15->node16 [label="4"];
+node15->node19 [label="5"];
+node15->node21 [label="6"];
+node16->node17 [label="4"];
+node16->node18 [label="5,6"];
+node19->node20 [label="4,5,6"];
+node21->node22 [label="4,5,6"];
+node23->node24 [label="4"];
+node23->node26 [label="5"];
+node23->node28 [label="6"];
+node24->node25 [label="4,5,6"];
+node26->node27 [label="4,5,6"];
+node28->node29 [label="4,5,6"];
+node30->node31 [label="4"];
+node30->node39 [label="5"];
+node30->node46 [label="6"];
+node31->node32 [label="4"];
+node31->node35 [label="5"];
+node31->node37 [label="6"];
+node32->node33 [label="4"];
+node32->node34 [label="5,6"];
+node35->node36 [label="4,5,6"];
+node37->node38 [label="4,5,6"];
+node39->node40 [label="4"];
+node39->node42 [label="5"];
+node39->node44 [label="6"];
+node40->node41 [label="4,5,6"];
+node42->node43 [label="4,5,6"];
+node44->node45 [label="4,5,6"];
+node46->node47 [label="4"];
+node46->node49 [label="5"];
+node46->node51 [label="6"];
+node47->node48 [label="4,5,6"];
+node49->node50 [label="4,5,6"];
+node52->node53 [label="4"];
+node52->node60 [label="5"];
+node52->node66 [label="6"];
+node53->node54 [label="4"];
+node53->node56 [label="5"];
+node53->node58 [label="6"];
+node54->node55 [label="4,5,6"];
+node56->node57 [label="4,5,6"];
+node58->node59 [label="4,5,6"];
+node60->node61 [label="4"];
+node60->node63 [label="5"];
+node60->node65 [label="6"];
+node61->node62 [label="4,5,6"];
+node63->node64 [label="4,5,6"];
+node66->node67 [label="4"];
+node66->node69 [label="5"];
+node66->node70 [label="6"];
+node67->node68 [label="4,5,6"];
+node71->node72 [label="4"];
+node71->node94 [label="5"];
+node71->node113 [label="6"];
+node72->node73 [label="4"];
+node72->node81 [label="5"];
+node72->node88 [label="6"];
+node73->node74 [label="4"];
+node73->node77 [label="5"];
+node73->node79 [label="6"];
+node74->node75 [label="4"];
+node74->node76 [label="5,6"];
+node77->node78 [label="4,5,6"];
+node79->node80 [label="4,5,6"];
+node81->node82 [label="4"];
+node81->node84 [label="5"];
+node81->node86 [label="6"];
+node82->node83 [label="4,5,6"];
+node84->node85 [label="4,5,6"];
+node86->node87 [label="4,5,6"];
+node88->node89 [label="4"];
+node88->node91 [label="5"];
+node88->node93 [label="6"];
+node89->node90 [label="4,5,6"];
+node91->node92 [label="4,5,6"];
+node94->node95 [label="4"];
+node94->node102 [label="5"];
+node94->node108 [label="6"];
+node95->node96 [label="4"];
+node95->node98 [label="5"];
+node95->node100 [label="6"];
+node96->node97 [label="4,5,6"];
+node98->node99 [label="4,5,6"];
+node100->node101 [label="4,5,6"];
+node102->node103 [label="4"];
+node102->node105 [label="5"];
+node102->node107 [label="6"];
+node103->node104 [label="4,5,6"];
+node105->node106 [label="4,5,6"];
+node108->node109 [label="4"];
+node108->node111 [label="5"];
+node108->node112 [label="6"];
+node109->node110 [label="4,5,6"];
+node113->node114 [label="4"];
+node113->node120 [label="5"];
+node113->node125 [label="6"];
+node114->node115 [label="4"];
+node114->node117 [label="5"];
+node114->node119 [label="6"];
+node115->node116 [label="4,5,6"];
+node117->node118 [label="4,5,6"];
+node120->node121 [label="4"];
+node120->node123 [label="5"];
+node120->node124 [label="6"];
+node121->node122 [label="4,5,6"];
+node125->node126 [label="4"];
+node125->node127 [label="5,6"];
+node128->node129 [label="4"];
+node128->node148 [label="5"];
+node128->node163 [label="6"];
+node129->node130 [label="4"];
+node129->node137 [label="5"];
+node129->node143 [label="6"];
+node130->node131 [label="4"];
+node130->node133 [label="5"];
+node130->node135 [label="6"];
+node131->node132 [label="4,5,6"];
+node133->node134 [label="4,5,6"];
+node135->node136 [label="4,5,6"];
+node137->node138 [label="4"];
+node137->node140 [label="5"];
+node137->node142 [label="6"];
+node138->node139 [label="4,5,6"];
+node140->node141 [label="4,5,6"];
+node143->node144 [label="4"];
+node143->node146 [label="5"];
+node143->node147 [label="6"];
+node144->node145 [label="4,5,6"];
+node148->node149 [label="4"];
+node148->node155 [label="5"];
+node148->node160 [label="6"];
+node149->node150 [label="4"];
+node149->node152 [label="5"];
+node149->node154 [label="6"];
+node150->node151 [label="4,5,6"];
+node152->node153 [label="4,5,6"];
+node155->node156 [label="4"];
+node155->node158 [label="5"];
+node155->node159 [label="6"];
+node156->node157 [label="4,5,6"];
+node160->node161 [label="4"];
+node160->node162 [label="5,6"];
+node163->node164 [label="4"];
+node163->node169 [label="5"];
+node163->node172 [label="6"];
+node164->node165 [label="4"];
+node164->node167 [label="5"];
+node164->node168 [label="6"];
+node165->node166 [label="4,5,6"];
+node169->node170 [label="4"];
+node169->node171 [label="5,6"];
+node172->node173 [label="4,5,6"];
+}
