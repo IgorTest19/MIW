@@ -1,4 +1,5 @@
 from file_manager import FileManager
+from chuck_norris import chuck
 
 # Zad1
 
@@ -6,7 +7,10 @@ a_list = [0, 1, 2, 3, 4]
 b_list = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
 
 
-def Zad1(a_list, b_list):
+def zad1(a_list, b_list):
+    """
+    Funkcja zwracająca indexy rosnąco
+    """
     c_list = []
     i = 0
     if len(a_list) > len(b_list):
@@ -21,8 +25,15 @@ def Zad1(a_list, b_list):
         i += 1
     return c_list
 
+# def zad1(a_list, b_list):
+#     """
+#     Funkcja zwracająca indexy w sposób nieuporządkowany
+#     """
+#     c_list = [i for i, j in enumerate(a_list) if  i % 2 == 0]
+#     c_list += [i for i, j in enumerate(b_list) if i % 2 != 0]
+#     return c_list
 
-# print(Zad1(a_list,b_list))
+# print(zad1(a_list,b_list))
 
 
 # Zad2
@@ -44,8 +55,8 @@ def zad2(data_text):
 
 
 # Zad3
-def zad3(text, letter):
-    return text.replace(letter, '')
+# def zad3(text, letter):
+#     return text.replace(letter, '')
 
 
 # print(zad3("Metody Inżynierii Wiedzy", 'i'))
@@ -56,7 +67,7 @@ def zad3(text, letter):
     return ''.join(slowo)
 
 
-# print(zad3("Metody Inżynierii Wiedzy", 'i'))
+print(zad3("Metody Inżynierii Wiedzy", 'i'))
 
 
 # Zad4
@@ -169,6 +180,8 @@ print(reverse("koteł"))
 
 fm = FileManager("test.txt")
 fm.read_file()
-fm.update_file("Nowy tekst")
+fm.update_file(" Nowy tekst.")
 
 # Zad10
+
+print(chuck("BOB"))
