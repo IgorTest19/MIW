@@ -14,7 +14,7 @@ class FileManager:
 
     def read_file(self):
         try:
-            file_opened = open(self.file_name, 'a', encoding='utf-8')
+            file_opened = open(self.file_name, 'r', encoding='utf-8')
             file_read = file_opened.read()
             return file_read
         except IOError:
